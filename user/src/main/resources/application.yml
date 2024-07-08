@@ -1,0 +1,17 @@
+server:
+  port: 8010
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/e_user
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+      
+      
+mailjetPublicKey: a2ee6a9262b90456d0d1bca5f6a8e936
+mailjetPrivateKey: b98854ed107194bc54eff09404454727
